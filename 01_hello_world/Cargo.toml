@@ -2,3 +2,14 @@
 name = "hello_world"
 version = "0.1.0"
 edition = "2021"
+description = "Stephen's solution to exercise 01_hello_world of the rust-cli-exercises!"
+keywords = ["rust", "rustlings", "cli", "npm", "hello-world"]
+license = "MIT"
+homepage = "https://ezektec.com"
+authors = ["Stephen Ezekwem <stephen.ezekwem@ezektec.com>"]
+
+[dependencies]
+cargo-tarpaulin = "0.26.1"
+
+[dev-dependencies]
+assert_cmd = "2.0.12"
