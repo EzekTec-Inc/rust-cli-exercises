@@ -2,8 +2,14 @@
 name = "bin_files"
 version = "0.1.0"
 edition = "2021"
+description = "Stephen's solution to exercise 02_bin_files of the rust-cli-exercises!"
+keywords = ["rust", "rustlings", "cli", "npm", "hello-world"]
+license = "MIT"
+homepage = "https://ezektec.com"
+authors = ["Stephen Ezekwem - stephen.ezekwem@ezektec.com"]
 
 [dependencies]
 
 [dev-dependencies]
-
+assert_cmd = "2.0.12"
+predicates = "3.0.3"
