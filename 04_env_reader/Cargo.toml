@@ -2,8 +2,16 @@
 name = "env_reader"
 version = "0.1.0"
 edition = "2021"
+description = "Stephen's solution to exercise 04_env_parser of the rust-cli-experience!"
+keywords = ["rust", "rustlings", "cli", "npm", "env-parser"]
+license = "MIT"
+homepage = "https://ezektec.com"
+authors = ["Stephen Ezekwem - stephen.ezekwem@ezektec.com"]
 
 [dependencies]
+dotenv = "0.15.0"
+dotenv_codegen = "0.15.0"
 
 [dev-dependencies]
-
+assert_cmd = "2.0.12"
+predicates = "3.0.1"
