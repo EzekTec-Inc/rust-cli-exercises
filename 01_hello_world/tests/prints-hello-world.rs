@@ -11,9 +11,7 @@ fn prints_hello_world() -> Result<(), Box<dyn std::error::Error>> {
         Err(_) => panic!("got non UTF-8 data from stdout"),
     };
 
-    let hello_world_text = "Hello world!, from EzekTec-Inc.\n".to_owned();
-    assert_eq!(output_str, hello_world_text);
-    // say_hello();
+    assert_eq!(output_str, "Hello, world!\n");
 
     Ok(())
 }
